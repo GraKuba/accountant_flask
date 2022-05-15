@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Warehouse</title>
+</head>
+<body>
+    <h1>Warehouse</h1>
+
+    {% for dict_item in warehouse %}
+        {% for key, value in dict_item.items() %}
+            <h3>Product: {{key}}</h3>
+            <h4>Amount: {{value}}</h4>
+        {% endfor %}
+    {% endfor %}
+
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Accountant</title>
+</head>
+<body>
+     <h1>Balance/Warehouse details</h1>
+     <ul id="navigation">
+
+         <a href="/index/balance">Balance</a>
+        <br /><br />
+        <a href="/index/warehouse">Warehouse</a>
+
+    </ul>
+
+    <hr />
+
+    <h3>Balance</h3>
+    <form action="" method="post">
+        <label for="balance_change">Balance change:</label>
+        <input id="balance_change" type="number" name="balance_change" />
+        <label for="comment">Comment:</label>
+        <input id="comment" type="text" name="comment" />
+        <button type="submit">Submit</button>
+    </form>
+
+    <br />
+    <h3>Record purchase</h3>
+    <form action="" method="post">
+        <label for="product_name_purchase">Name:</label>
+        <input id="product_name_purchase" type="text" name="product_name_purchase" />
+        <label for="product_price_purchase">Price:</label>
+        <input id="product_price_purchase" type="number" name="product_price_purchase" />
+        <label for="product_amount_purchase">Amount:</label>
+        <input id="product_amount_purchase" type="number" name="product_amount_purchase" />
+        <button type="submit">Submit</button>
+    </form>
+
+     <br />
+     <h3>Record sale</h3>
+     <form action="" method="post">
+        <label for="product_name_sale">Name:</label>
+        <input id="product_name_sale" type="text" name="product_name_sale" />
+        <label for="product_price_sale">Price:</label>
+        <input id="product_price_sale" type="number" name="product_price_sale" />
+        <label for="product_amount_sale">Amount:</label>
+        <input id="product_amount_sale" type="number" name="product_amount_sale" />
+        <button type="submit">Submit</button>
+    </form>
+
+    <br />
+    <hr />
+
+     <br />
+    <a href="/index/history">Search History</a>
+
+     <br /><br />
+
+</body>
+</html>
